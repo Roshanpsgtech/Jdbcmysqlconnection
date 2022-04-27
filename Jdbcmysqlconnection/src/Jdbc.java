@@ -12,7 +12,6 @@ public class Jdbc {
 		Class.forName("com.mysql.cj.jdbc.Driver");
 		//2.Connection URL
 		Connection cn = DriverManager.getConnection("jdbc:mysql://root@localhost/testing");
-		//"jdbc:mysql://@localhost:3306/clean_datab","clean_datab","o2RApcSDt"
 		//3.Connection Statement 
 		Statement st = cn.createStatement();
 		//4.Store in ResultSet
@@ -26,4 +25,3 @@ public class Jdbc {
 	}
 
 }
-//("jdbc:mysql://root@localhost/testing");
